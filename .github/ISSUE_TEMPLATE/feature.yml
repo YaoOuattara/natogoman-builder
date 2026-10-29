@@ -1,0 +1,23 @@
+name: Build task
+description: Deliver a testable NATOGOMAN feature
+title: "[Build] "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: outcome
+    attributes:
+      label: User outcome
+      description: What should work for a child, parent, or educator?
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance criteria
+      placeholder: "- [ ] FR/EN complete\n- [ ] Tests pass\n- [ ] Safety reviewed"
+    validations:
+      required: true
+  - type: textarea
+    id: checks
+    attributes:
+      label: Verification plan

@@ -1,0 +1,5 @@
+---
+description: NATOGOMAN development and educational safety rules
+alwaysApply: true
+---
+Follow AGENTS.md and docs/PRODUCT.md before coding. Produce working code, not only plans. Run npm run check after changes. Preserve FR/EN parity and keep African-language translations disabled until reviewed by qualified speakers. Never publish private family history or identifiable child information. Do not deploy, merge, or spend without founder approval. For UI changes check mobile, keyboard, and low-bandwidth behavior.
